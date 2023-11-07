@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
 }
 
 /* debug */
@@ -15,12 +14,30 @@
   background-color: rgb(221, 123, 139);
   border: 1px solid white;
 }
+.bianco {
+  background-color: white;
+}
 
 .nested {
   background-color: rgb(20, 96, 168);
-  min-height: 30px;
+  min-height: 50px;
   border: 1px solid rgb(221, 123, 139);
 }
 .nest {
   margin: 10px 10px;
+}
+
+.alto {
+  min-height: 50px;
+  margin: 10px 10px;
+  background-color: blue;
+}
+.top {
+  align-items: start;
+}
+.end {
+  align-items: end;
+}
+.around {
+  justify-content: space-around;
 }
